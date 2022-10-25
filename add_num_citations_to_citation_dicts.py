@@ -4,6 +4,14 @@ import time
 import re
 import progressbar
 
+"""add_num_citations reads through all previously created citation json files and reformats them to 
+   include the number of citations at each parent and child reference. Updating the parent reference 
+   uses the length of the list it references. In order to update each child reference, I construct a 
+   dictionary with years as keys and a list of children from this year. Next, I open the corresponding 
+   citation year file where I can find these children as parents and record the length of each of the lists 
+   they reference. 
+"""
+
 def add_num_citations():
 	for year in range(1995, 2022):
 		if '{}_num_citations_yearsv2.json'.format(year) in os.listdir('D:\citation networks'):
