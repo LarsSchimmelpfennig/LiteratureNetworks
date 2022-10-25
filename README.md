@@ -1,4 +1,4 @@
-# Citation Networks - UW-Madison Gellman Group Literature
+# Literature Networks - UW-Madison Gellman Group
 
 Data source - Web of Science CORE dataset
 
