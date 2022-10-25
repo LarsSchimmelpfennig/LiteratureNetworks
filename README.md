@@ -11,7 +11,7 @@ With these citation json files I was able to traverse the citation network succe
 
 
 **Subset of this network in 3D**
-![3d](d7w2.html)
+![3d](d7w2.svg)
 
 
 **Visualizing the change in topics studied in Foldamer literature**
