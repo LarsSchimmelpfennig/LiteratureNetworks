@@ -2,6 +2,8 @@
 
 Data source - Web of Science CORE dataset
 
+article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
+
 **Citation network spanning 1998-2003 starting from 'Foldamers: a Manifesto' by Samuel H Gellman (1998)**
 ![network](Manifesto_1998-2003_network.png)
 
