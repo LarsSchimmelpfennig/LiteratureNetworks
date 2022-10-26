@@ -1,6 +1,6 @@
 # Literature Networks - UW-Madison Gellman Group
 
-Data source - Web of Science CORE dataset
+Data source - Web of Science CORE dataset provided by UW-Madison
 
 article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
 
