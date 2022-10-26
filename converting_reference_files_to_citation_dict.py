@@ -1,14 +1,19 @@
 import json
 import os
 import sys
-sys.path.append(r"C:\Users\1Lars\OneDrive\Desktop\Visual Studio Code\projects\wos_explorer_master\wos_explorer")
 from article_collection import ArticleCollection
 import time
 import csv
 from dask import dataframe as dd
 import pandas as pd
 
-#create a year citation file
+"""This script is used to convert all the reference data from the WOS CORE files to 
+   a set of citation json files. The keys map to a list of papers that cite them.
+   Only the paper's id and year are used in these new files.
+   The ArticleCollection class simplifies extracting the information for each paper from the json files.
+"""
+
+#creates a year citation file, this is used while reading the sorted edge list
 def add_curr_d(parent, curr_d, idx, l_citations_children):
 	if parent in curr_d.keys() and l_citations_children[idx] not in curr_d[parent]:
 		curr_d[parent].append(l_citations_children[idx])
