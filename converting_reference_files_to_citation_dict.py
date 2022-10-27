@@ -69,10 +69,10 @@ def citation_year_dicts(target_year):
 	os.remove(os.path.join('D:\citation networks','{}_temp_edge_list.csv'.format(target_year)))
 	
 	curr_d = {}
-	num_chunks = len(list(pd.read_csv('D:\citation networks/sorted_{}_temp_edge_list.csv'.format(target_year), chunksize=10000)))
+	num_chunks = len(list(pd.read_csv('D:\citation networks\sorted_{}_temp_edge_list.csv'.format(target_year), chunksize=10000)))
 	increment = int(num_chunks / 4)
 	print('number of chunks to scan: ',num_chunks)
-	for num_chunk, chunk in enumerate(pd.read_csv('D:\citation networks/sorted_{}_temp_edge_list.csv'.format(target_year), chunksize=10000)):
+	for num_chunk, chunk in enumerate(pd.read_csv('D:\citation networks\sorted_{}_temp_edge_list.csv'.format(target_year), chunksize=10000)):
 		if increment > 0 and (num_chunk+1) % increment == 0:
 			print('progress: ',((num_chunk+1) / increment) * 25,'%')
 		l_citations_parents = chunk["parent"].values.tolist()
