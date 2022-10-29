@@ -5,7 +5,10 @@ import orjson as json
 
 #for this version I will not use a Graph object as this is extra memory usage - I will write each edge directly to a csv file and nothing more
 
-#TODO use sys.getsizeof() to track witch objects are using the most memory. 
+"""traverse_final starts at a given paper id or list of paper ids and generates a complete citation network containing all future citations in the network.
+   For this reason the network grows extremely quickly and will eventually slow to a stop depending on computer resources. Sorting can be used to limit how 
+   many cited papers are added.
+"""
 
 
 def traverse_final(root_ids, root_year, end_year):
