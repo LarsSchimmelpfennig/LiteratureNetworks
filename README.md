@@ -19,5 +19,5 @@ With these citation json files I was able to traverse the citation network succe
 
 **Visualizing the change in topics studied in the Foldamer literature**
 <p align="center"> <img src="triangle_heatmap.gif" width="800" height="800" /> </p>
-Using a Word2Vec model I was able to determine the average similarity of a paper to a set of topics. The model was trained with the entire Web of Science dataset containing papers up to 2021. The title, headers, subjects, keywords, and abstract for each paper were used for training. 
+Using a Word2Vec model I am able to visualize the change in topics for a given field of literature. The model was trained with the entire Web of Science dataset containing papers up to 2021. The title, headers, subjects, keywords, and abstract for each paper were used for training. 
 
