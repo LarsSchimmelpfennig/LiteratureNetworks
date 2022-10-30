@@ -4,6 +4,9 @@ Data source - Web of Science CORE dataset provided by UW-Madison Libraries
 
 article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
 
+**Complete citation network for the field of Foldamers (2021)**
+![complete network](foldamers_citation_network_2021.png)
+
 **Citation network spanning 1998-2003 starting from 'Foldamers: a Manifesto' by Samuel H Gellman (1998)**
 ![network](Manifesto_1998-2003_network.png)
 
