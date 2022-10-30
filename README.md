@@ -5,7 +5,8 @@ Data source - Web of Science CORE dataset provided by UW-Madison Libraries
 article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
 
 **Complete citation network for the field of Foldamers (2021)**
- - Node and edge color assigned by modularity class
+ - Node and edge color is assigned by modularity class (clustering).
+ - Node size is assigned by in-degree. The larger nodes represent the more frequently cited papers in the network.
 
 ![complete network](foldamers_citation_network_2021.png)
 
