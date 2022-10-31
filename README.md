@@ -4,6 +4,8 @@ Data source - Web of Science CORE dataset provided by UW-Madison Libraries
 
 article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
 
+Foldamers are among the main areas of research of the Gellman Group. As a member of the group, I am interested in in the development of this field.
+
 **Complete citation network for the field of Foldamers (2021)**
  - Node and edge color is assigned by modularity class (clustering).
  - Node size is assigned by in-degree. The larger nodes represent the more frequently cited papers in the network.
@@ -19,8 +21,6 @@ With these citation json files I was able to traverse the citation network succe
 
 **Coauthorship Network for Authors of Foldamer Papers**
 ![coauthor](foldamers_couathor_red_orange.png)
-
-
 
 **Visualizing the change in topics studied in the Foldamer literature**
 <p align="center"> <img src="topic_heatmap.gif" width="700" height="600" /> </p>
