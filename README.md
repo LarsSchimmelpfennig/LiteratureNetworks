@@ -19,11 +19,11 @@ With these citation json files I was able to traverse the citation network succe
 
 **Coauthorship Network for Authors of Foldamer Papers**
 <p align="center">
-<img src="updated_count5_coauthor_network_foldamer.png" width="800" height="700" />
+<img src="updated_count5_coauthor_network_foldamer.png" width="600" height="500" />
 </p>
 
 
 **Visualizing the change in topics studied in the Foldamer literature**
-<p align="center"> <img src="triangle_heatmap.gif" width="800" height="800" /> </p>
+<p align="center"> <img src="topic_heatmap.gif" width="700" height="600" /> </p>
 Using a Word2Vec model I am able to visualize the change in topics for a given field of literature. The model was trained with the entire Web of Science dataset containing papers up to 2021. The title, headers, subjects, keywords, and abstract for each paper were used for training. 
 
