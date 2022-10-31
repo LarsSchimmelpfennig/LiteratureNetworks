@@ -18,9 +18,8 @@ Traversing this network was accomplished by traverse_final.py. The literature da
 With these citation json files I was able to traverse the citation network successfully. However, the size of the complete network grows so quickly that I wanted to include only a subset of the most cited papers for each paper. I was able to update my citation json files to include this number of citations with add_num_citations.py.
 
 **Coauthorship Network for Authors of Foldamer Papers**
-<p align="center">
-<img src="updated_count5_coauthor_network_foldamer.png" width="600" height="500" />
-</p>
+![coauthor](foldamers_couathor_red_orange.png)
+
 
 
 **Visualizing the change in topics studied in the Foldamer literature**
