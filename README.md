@@ -4,7 +4,7 @@ Data source - Web of Science CORE dataset provided by UW-Madison Libraries
 
 article_collection module source: https://github.com/UW-Madison-Library/wos-explorer
 
-Foldamers are among the main areas of research of the Gellman Group. As a member of the group, I am interested in in the development of this field.
+Foldamers are among the main areas of research of the Gellman Group. As a member of the group, I am interested in the development of this field.
 
 **Complete citation network for the field of Foldamers (2021)**
  - Node and edge color is assigned by modularity class (clustering).
