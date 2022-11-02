@@ -8,7 +8,7 @@ Foldamers are among the main areas of research of the Gellman Group. As a member
 
 **Complete citation network for the field of Foldamers (2021)**
  - Node and edge color is assigned by modularity class (clustering).
- - Node size is assigned by in-degree. The larger nodes represent the more frequently cited papers in the network.
+ - Node size is assigned by out-degree. Citations are represented by edges directed to the referencing paper. The larger nodes represent the more frequently cited papers in the network.
 
 ![complete network](foldamers_citation_network_2021.png)
 
