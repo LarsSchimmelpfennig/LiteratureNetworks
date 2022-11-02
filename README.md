@@ -10,7 +10,7 @@ Foldamers are among the main areas of research of the Gellman Group. As a member
  - Node and edge color is assigned by modularity class (clustering).
  - Node size is assigned by out-degree. Citations are represented by edges directed to the referencing paper. The larger nodes represent the more frequently cited papers in the network.
 
-![complete network](foldamers_citation_network_2021.png)
+![complete network](foldamers_CN_2021.png)
 
 **Citation network spanning 1998-2003 starting from 'Foldamers: a Manifesto' by Samuel H Gellman (1998)**
 ![network](Manifesto_1998-2003_network.png)
