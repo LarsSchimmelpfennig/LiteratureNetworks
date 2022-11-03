@@ -138,8 +138,6 @@ foldamers_origin = ['1996, 617, WOS:A1996WA82700027',
  '2001, 2083, WOS:000172874900010',
  '1999, 1241, WOS:000078230400061']
 
-#I have an incorrect value here - likely from the few missing files I missed when I first created it and these dont include the 31 citations in 2022
-#I should redo the creation of these files
 manifesto = ['1998, 2229, WOS:000073512800005']
 
 traverse_final(manifesto, 1998, 2021)
